@@ -8,7 +8,7 @@ package carstore;
  *
  * @author sabs231
  */
-public class CarStore {
+public class MainCarStore {
 
     /**
      * @param args the command line arguments
