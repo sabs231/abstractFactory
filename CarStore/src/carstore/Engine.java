@@ -8,6 +8,7 @@ package carstore;
  *
  * @author sabs231
  */
-public interface Engine {
-    
+public interface Engine 
+{
+    public abstract void printInfo();
 }

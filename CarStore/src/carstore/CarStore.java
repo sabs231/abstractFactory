@@ -8,7 +8,7 @@ package carstore;
  *
  * @author sabs231
  */
-public interface AbstractCarStore 
+public interface CarStore 
 {
-    public abstract void createCar();
+    public abstract Car orderCar(String brand);
 }

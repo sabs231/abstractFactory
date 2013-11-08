@@ -8,6 +8,7 @@ package carstore;
  *
  * @author sabs231
  */
-public interface Window {
-    
+public interface Window 
+{
+    public abstract void printInfo();
 }

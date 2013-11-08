@@ -8,6 +8,7 @@ package carstore;
  *
  * @author sabs231
  */
-public interface Tire {
-    
+public interface Tire 
+{
+    public abstract void printInfo();
 }

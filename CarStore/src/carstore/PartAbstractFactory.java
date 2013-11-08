@@ -10,8 +10,8 @@ package carstore;
  */
 public interface PartAbstractFactory 
 {
-    public abstract void createTire();
-    public abstract void createEngine();
-    public abstract void createWindow();
-    public abstract void createChassis();
+    public abstract Tire createTire();
+    public abstract Engine createEngine();
+    public abstract Window createWindow();
+    public abstract Chassis createChassis();
 }

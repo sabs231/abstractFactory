@@ -8,11 +8,11 @@ package carstore;
  *
  * @author sabs231
  */
-public class FordFactory extends Car
+public class NissanFactory extends Car 
 {
-    PartAbstractFactory partFactory;
+    private PartAbstractFactory partFactory;
     
-    public FordFactory(PartAbstractFactory parts)
+    public NissanFactory(PartAbstractFactory parts)
     {
         partFactory = parts;
     }

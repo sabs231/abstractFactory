@@ -11,27 +11,27 @@ package carstore;
 public class NissanPartFactory implements PartAbstractFactory
 {
     @Override
-    public void createTire() 
+    public Tire createTire() 
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return (new NissanTire());
     }
 
     @Override
-    public void createEngine() 
+    public Engine createEngine() 
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return (new NissanEngine());
     }
 
     @Override
-    public void createWindow() 
+    public Window createWindow() 
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return (new NissanWindow());
     }
 
     @Override
-    public void createChassis() 
+    public Chassis createChassis() 
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return (new NissanChassis());
     }
     
 }

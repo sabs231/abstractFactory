@@ -8,6 +8,7 @@ package carstore;
  *
  * @author sabs231
  */
-public interface Chassis {
-    
+public interface Chassis 
+{
+    public abstract void printInfo();
 }
